@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roulette</title>
+</head>
+<body>
+  <canvas id="canvas"
+          height="300px"
+          width="300px"
+          style="border: solid 1px black"></canvas>
+  <br>
+  <label> Slice No.:
+    <input id="slice" type="number" value="0">
+  </label>
+  <br>
+  <button id="add">Add</button>
+  <button id="remove">Remove</button>
+  <br>
+  <div id="handles">
+    <label> Handle 1:
+      <input id="handle1" type="number" value="0">
+    </label>
+    <br>
+    <label> Handle 2:
+      <input id="handle2" type="number" value="120">
+    </label>
+    <br>
+    <label> Handle 3:
+      <input id="handle3" type="number" value="240">
+    </label>
+  </div>
+  <script id="script"
+          type="module"
+          src="./script.js"></script>
+</body>
+</html>
